@@ -1,7 +1,7 @@
 # dump-lsass-with-powershell
 ---
 ## 1. Introduction
-it is a powershell script that bypasses the MDE to generate an LSASS dump. you need administrator privileges to dump.
+It is a powershell script that bypasses the MDE to generate an LSASS dump. You need administrator privileges to dump. I recommend pypykatz for analyzing dump files.
 
 ## 2. Usage
 `> .\scripts.ps1 -OutputPath "C:\Users\user\dump.dmp"`
